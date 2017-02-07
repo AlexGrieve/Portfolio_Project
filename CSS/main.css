@@ -1,6 +1,6 @@
-*{
+/**{
 	border: 1px solid red !important;
-}
+}*/
 *{
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -8,8 +8,67 @@
 	box-sizing: border-box;
 }
 
+*{
+	font-family: 'Lato', sans-serif;
+}
+
 .row{
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
+	margin-bottom: 1%;
 }
+
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.logo{
+	margin-left: 0;
+}
+
+/*Break headers apart into their specific classes*/
+.name_text{
+	margin: 0;
+	color: #2d3c49;
+	font-weight: 100;
+	text-align:right
+}
+
+.title_text{
+	margin: 0;
+	color: #2d3c49;
+	font-weight: 100;
+	text-align:right	
+}
+
+h2{
+	margin: 0;
+	color: #2d3c49;
+	font-size: 2.25em;
+}
+
+h3{
+	margin: 0;
+	color: #7d97ad;
+	font-size: 1.5em;	
+}
+
+h4{
+	margin: 0;
+	color: #2d3c49;
+}
+
+p{
+	margin: 0;
+	color: #2d3c49;
+	font-size: .75em;
+}
+
+.header_line{
+	height: 2px;
+	background-color: #7d97ad;
+}
+
