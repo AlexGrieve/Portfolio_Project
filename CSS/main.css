@@ -1,6 +1,3 @@
-/**{
-	border: 1px solid red !important;
-}*/
 *{
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -19,56 +16,74 @@
 	margin-bottom: 1%;
 }
 
-img{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.logo{
-	margin-left: 0;
-}
-
-/*Break headers apart into their specific classes*/
 .name_text{
 	margin: 0;
 	color: #2d3c49;
 	font-weight: 100;
-	text-align:right
+	text-align:right;
+	font-size: 3em;
 }
 
 .title_text{
 	margin: 0;
 	color: #2d3c49;
 	font-weight: 100;
-	text-align:right	
+	text-align:right;	
+	font-size: 1.5em;
 }
 
-h2{
-	margin: 0;
-	color: #2d3c49;
-	font-size: 2.25em;
-}
-
-h3{
+.subtitle_text{
 	margin: 0;
 	color: #7d97ad;
+	font-weight: 100;
 	font-size: 1.5em;	
 }
 
-h4{
+.project_text{
 	margin: 0;
 	color: #2d3c49;
+	font-size: 2.0em;
+	text-align: center;	
 }
 
-p{
-	margin: 0;
-	color: #2d3c49;
-	font-size: .75em;
+.links{
+	margin-bottom: 10px;
+	text-align: center;
 }
 
 .header_line{
 	height: 2px;
 	background-color: #7d97ad;
+	width: 100%;
 }
 
+.main_image{
+	width: 950px;
+	height: 350px;
+	display: block;
+}
+
+.project_image{
+	width: 300px;
+	height: 200px;
+	display: block;
+}
+
+.logo{
+	width: 100px;
+	height: 100px;
+	display: block;
+	margin-left: 0;
+}
+
+img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+p{
+	text-align: center;
+	margin-left: 5px;
+	margin-right: 5px;
+}
